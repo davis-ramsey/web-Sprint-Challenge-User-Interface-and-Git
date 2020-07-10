@@ -39,13 +39,20 @@ easy to read/understand for future developers. An example of using a semantic ta
 
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
 
-
+'display: block' forces the content to display in a new block while 'display:inline' will keep the content in the existing block. 
+'display: block' will create a new line before and after it while 'display:inline' will adjust its width to fit content and will display without creating a new line.
 
 3. What are the 4 areas of the box model?
 
+The content, padding, border, and margin.
+
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
+The cross axis.
+
 5. Explain why git is valuable to a team of developers.
+
+Git is valuable because it ensures everyone is working from the latest version of code. It makes it easy to keep track of progress and helps keep everyone on the same page.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
