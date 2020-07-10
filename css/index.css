@@ -181,6 +181,23 @@ header nav > * {
 	margin-bottom: 3%;
 }
 
+h2 {
+	font-size: 30px;
+	letter-spacing: 1.5px;
+}
+
+p {
+	font-size: 15px;
+	letter-spacing: 1.5px;
+	line-height: 2;
+}
+
+.about-header {
+	border-bottom: 1px dashed black;
+	margin-bottom: 20px;
+	padding-bottom: 20px;
+}
+
 .top-content {
 	display: flex;
 	flex-wrap: wrap;
