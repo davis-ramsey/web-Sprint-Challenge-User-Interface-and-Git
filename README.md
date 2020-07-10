@@ -34,7 +34,12 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+Semantic HTML is using the most descriptive tags to mark up your web page. It's useful for accessibility, search engine optimization, and to make your code
+easy to read/understand for future developers. An example of using a semantic tag would be using a section tag over a div.
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+
+
 
 3. What are the 4 areas of the box model?
 

@@ -174,7 +174,7 @@ header nav {
 header nav > * {
 	text-decoration: none;
 	color: black;
-	width: 20%;
+	flex: 1 1 20%;
 }
 
 #jumbo {
@@ -189,13 +189,51 @@ h2 {
 p {
 	font-size: 15px;
 	letter-spacing: 1.5px;
-	line-height: 2;
 }
 
 .about-header {
 	border-bottom: 1px dashed black;
 	margin-bottom: 20px;
 	padding-bottom: 20px;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+.about-content {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.about-content div {
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 20px;
+	border-bottom: 1px dashed black;
+	padding-bottom: 20px;
+	width: 40%;
+}
+
+.about-content div h2 {
+	margin-top: 5%;
+}
+
+.about-content div a {
+	margin-top: 10px;
+	text-decoration: none;
+	color: black;
+	padding: 10px;
+	border: 2px solid black;
+	border-radius: 10px;
+	width: 150px;
+	text-align: center;
+}
+
+.about-footer {
+	margin-top: 20px;
+	margin-bottom: 30px;
+	padding-left: 30px;
+	padding-right: 30px;
 }
 
 .top-content {
